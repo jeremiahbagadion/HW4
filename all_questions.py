@@ -8,7 +8,7 @@ def question1():
     answers = {}
 
     # string "yes" or "no"
-    answers["(a)"] = None
+    answers["(a)"] = "no"
     answers["(b)"] = None
     answers["(c)"] = None
     answers["(d)"] = None
