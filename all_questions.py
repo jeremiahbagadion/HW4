@@ -9,15 +9,15 @@ def question1():
 
     # string "yes" or "no"
     answers["(a)"] = "no"
-    answers["(b)"] = None
-    answers["(c)"] = None
-    answers["(d)"] = None
+    answers["(b)"] = "no"
+    answers["(c)"] = "yes"
+    answers["(d)"] = "yes"
 
     # explain-string: explanation in english prose
-    answers["(a) explain"] = None
-    answers["(b) explain"] = None
-    answers["(c) explain"] = None
-    answers["(d) explain"] = None
+    answers["(a) explain"] = "An individual who is a single home owner with low annual income would satisfy rules 1, 2, and 3 at the same time, which means these rules are not mutually exclusive."
+    answers["(b) explain"] = "Because there are potential scenarios (e.g., Divorced individuals or certain combinations of annual income and employment status) that are not addressed by the existing rules"
+    answers["(c) explain"] = "because they are not mutually exclusive, and some rules may conflict with each other when applied to the same instance."
+    answers["(d) explain"] = "because it is not exhaustive, and it ensures that every instance can be classified, even if it does not match any of the provided rules."
 
     return answers
 
@@ -44,14 +44,14 @@ def question3():
     answers = {}
 
     # string "yes" or "no"
-    answers["(a)"] = None
-    answers["(b)"] = None
-    answers["(c)"] = None
+    answers["(a)"] = "yes"
+    answers["(b)"] = "no"
+    answers["(c)"] = "no"
 
     # explain-string: explanation in english prose
-    answers["(a) example"] = None
-    answers["(b) example"] = None
-    answers["(c) example"] = None
+    answers["(a) example"] = "No vertebrate can be both warm-blooded and not warm-blooded at the same time, nor can it be both an aquatic and an aerial creature at the same time based on these classifications."
+    answers["(b) example"] = "they do not account for every possible condition present in the data set, specifically they do not classify all cold-blooded animals that do not give birth and are not aquatic or aerial (like reptiles and amphibians)."
+    answers["(c) example"] = "Ordering of rules is required when rules are not mutually exclusive because it determines which rule should be applied first in case an instance satisfies multiple rules"
 
     return answers
 # -----------------------------------------------------------
@@ -59,14 +59,14 @@ def question7():
     answers = {}
 
     # bool: True/False
-    answers["(a)"] = None
-    answers["(b)"] = None
+    answers["(a)"] = True
+    answers["(b)"] = True
     answers["(c)"] = None
     answers["(d)"] = None
 
     # explain_string: explanation in english prose
-    answers["(a) explain"] = None
-    answers["(b) explain"] = None
+    answers["(a) explain"] = "the gradients of weights at the (k+1)th layer are computed using the chain rule, which involves the gradients of weights at the kth layer"
+    answers["(b) explain"] = "This is forward propagation. The activations are calculated by applying a weighted sum of the inputs followed by a non-linear activation function."
     answers["(c) explain"] = None
     answers["(d) explain"] = None
 
