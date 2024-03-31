@@ -61,14 +61,14 @@ def question7():
     # bool: True/False
     answers["(a)"] = True
     answers["(b)"] = True
-    answers["(c)"] = None
-    answers["(d)"] = None
+    answers["(c)"] = False
+    answers["(d)"] = True
 
     # explain_string: explanation in english prose
     answers["(a) explain"] = "the gradients of weights at the (k+1)th layer are computed using the chain rule, which involves the gradients of weights at the kth layer"
     answers["(b) explain"] = "This is forward propagation. The activations are calculated by applying a weighted sum of the inputs followed by a non-linear activation function."
-    answers["(c) explain"] = None
-    answers["(d) explain"] = None
+    answers["(c) explain"] = "The vanishing gradient problem refers to the issue in deep neural networks where gradients of the loss function become increasingly small as the backpropagation algorithm progresses to earlier layers. It does not refer to the condition where training errors go to zero while test errors remain large, which is typically a sign of overfitting."
+    answers["(d) explain"] = "If the ANN model perfectly classifies all training instances at a given iteration, it means that the predicted outputs match the true outputs for all examples. In this case, the error term for each training example i will be zero."
 
     return answers
 
